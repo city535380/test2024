@@ -10,7 +10,7 @@ let confidence = "";
 
 function preload() {
   classifier = ml5.imageClassifier("MobileNet");
-  img = loadImage("images/bird.jpg");
+  img = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Eopsaltria_australis_-_Mogo_Campground.jpg/640px-Eopsaltria_australis_-_Mogo_Campground.jpg");
 }
 
 function setup() {
